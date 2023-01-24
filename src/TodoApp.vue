@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <a target="_blank" rel="noopener noreferrer" href="https://github.com/giriss/todo-vue">→ View code on GitHub</a>
     <h1>Vue Todo App</h1>
     <TodoAdder @add="addTodo" />
     <TodoList :items="todos" @toggle="toggleTodo" @delete="deleteTodo" />
